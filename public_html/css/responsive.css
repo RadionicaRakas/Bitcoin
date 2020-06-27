@@ -1,0 +1,237 @@
+/*SM breakpoint*/
+@media( min-width:576px){
+  
+    /* header */
+ .navbar .navbar-brand{
+        padding: 15px 0 17px 0;
+} 
+   
+/* slider */
+    .slider{
+        margin-top: -100px;
+        position: relative;
+    }
+
+    /* clients */
+
+.clients .clients-item .clients-link{
+    width: 33.3333% !important;
+}
+
+.clients .clients-item .clients-link:last-of-type{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+}
+
+
+
+/*MD breakpoint*/
+@media(min-width:768px){
+
+    /* header */
+.navbar .navbar-brand{
+    padding: 20px 0 22px 0;
+}
+
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-nav .nav-link-2{
+    text-transform: capitalize;
+    padding: 5px 5px;
+    margin-right: 10px;
+}
+
+
+.navbar-dark .navbar-nav .nav-link{
+   border-top: 3px solid transparent; 
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active{
+    border-bottom: 3px solid #1FDB84;
+    border-radius: 0;
+    background-color: #313A5A !important;
+    }
+
+.navbar-dark .navbar-nav .nav-link-2{
+    color: #1FDB84;
+    border: 3px solid transparent;
+}
+
+.navbar-dark .navbar-nav .nav-link-2:hover,
+.navbar-dark .navbar-nav .nav-link-2.active{
+    color: #fff;
+    background-color: #1FDB84 !important;
+    border: 3px solid #1FDB84;
+    border-radius: 3px;
+}
+
+/* lead */
+
+
+.lead .lead-content a.btn{
+    padding: 10px 20px;
+}
+
+
+/* custom container*/
+.custom-container{
+    max-width: 95%;
+    border-radius: 10px;
+    margin-top: -50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    box-shadow: 0 10px 34px 0 rgba(210,210,210,0.5);
+    position: relative;
+    z-index: 1;
+}
+
+/* slider */
+
+    .slider{
+        margin-top: -100px;
+        position: relative;
+    }
+
+
+/* benefit */
+
+.benefit .benefit-content .benefit-title{
+    font-size: 20px;
+}
+
+.benefit .benefit-content .benefit-text{
+    max-width: 80%;
+    margin: 0 auto;
+}
+ /* pricing */
+ .pricing .pricing-title{
+    font-size: 32px;
+}
+
+.pricing .pricing-item-title{
+    font-size: 20px;
+}
+ 
+.pricing .pricing-item p.green-primary{
+    font-size: 56px;
+    line-height: 62px;
+}
+ 
+/* clients */
+
+.clients .clients-item .clients-link{
+    width: 25% !important;
+}
+.clients a.w-50:nth-child(9){
+    margin-left: auto;
+}
+.clients .clients-item .clients-link:last-of-type{
+    margin-left: 0;
+}
+
+
+/* footer */
+
+.footer .footer-title{
+    font-size: 1.25rem;
+}
+
+
+
+
+
+
+/*LG breakpoint*/
+@media(min-width:992px){
+
+  /* header */    
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-nav .nav-link-2{
+    margin-right: 25px;
+}
+
+/* lead */
+.lead .lead-content .lead-title{
+    font-size: 3rem;
+    line-height: 3.5rem;
+    margin-bottom: 3rem;
+}
+
+.lead .lead-content .lead-text{
+    color: #fff;
+    margin-bottom: 3rem;
+}
+
+.lead .lead-content a.btn{
+    padding: 1rem 3rem;
+}
+
+/* custom container*/
+.custom-container{
+    margin-top: -100px;
+    padding: 0 2rem;
+}
+
+/* slider */
+
+    .slider{
+        margin-top: -150px;
+        position: relative;
+    }
+
+    /* benefit */
+    
+    .benefit .benefit-content{
+        text-align: left;
+    }
+    
+    .benefit .benefit-content .benefit-text{
+    max-width: 100%;
+    }
+    
+    .benefit .benefit-content .benefit-span{
+        margin-left: 0;
+    }
+    
+    
+    /* pricing */
+ .pricing .pricing-title{
+    font-size: 40px;
+}
+
+.pricing .pricing-item-title{
+    font-size: 24px;
+}
+
+.pricing .pricing-item p.green-primary{
+    font-size: 72px;
+    line-height: 80px;
+}
+
+/* clients */
+
+.clients .clients-item .clients-link{
+    width: 20% !important;
+}
+
+}
+
+/*XL breakpoint*/
+@media(min-width:1200px){
+    
+    /* header */
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-nav .nav-link-2{
+    margin-right: 35px;
+}
+
+/* footer */
+
+ .footer .footer-title{
+    font-size: 1.5rem;
+ }
+}
+}
